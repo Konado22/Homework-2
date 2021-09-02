@@ -1,23 +1,46 @@
 *{
     font-size: 16px;
     font-family: monospace;
-    margin: 0%
 }
-header {
-background-color: blue;
-color: grey;
-}
-header h1{
-justify-content: left;
-
-}
-header, nav{
-
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color:paleturquoise;
+    align-items: center;
 }
 
-ul {
+.navbar ul{
+    display: flex;
     list-style-type: none;
-    float: right;
-    display: block;
+    text-decoration: underline;
+    justify-content: space-between;
+    
+   
+}
+h1 {
+    background-color: purple;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: lightgray;
 }
 
+.navbar ul li {
+padding: 10px;
+margin-right: 20px;
+font-weight: bolder;
+}
+.navbar ul li a {
+    font-size: 25px;
+}
+
+#banner{
+    background-image: url();
+}
+#tags { 
+flex-direction: column;
+
+}
+  
