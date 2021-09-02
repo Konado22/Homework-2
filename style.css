@@ -69,8 +69,14 @@ color:white;
 }
 
 .psuedo {
-max-width:100px;
-max-height:100px;
+    max-width:100px;
+    max-height:100px;
+}
+#special-psuedo:hover{
+    opacity: 80%;
+}
+.psuedo:hover{
+    opacity: 80%;
 }
 .contact-me h4 {
     float: right;
