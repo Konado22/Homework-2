@@ -5,7 +5,7 @@
 .navbar {
     display:flex;
     justify-content: space-between;
-    background-color:paleturquoise;
+    background-color:blue;
     align-items: center;
 }
 
@@ -21,10 +21,8 @@ h1 {
     background-color: purple;
     font-size: 30px;
     margin: 0px;
-    padding: 10px 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: lightgray;
+    padding: 10px;
+    color:seashell;
 }
 
 .navbar ul li {
@@ -34,13 +32,52 @@ font-weight: bolder;
 }
 .navbar ul li a {
     font-size: 25px;
+    color: purple;
+}
+.navbar ul li a:hover {
+background-color:purple;
+box-shadow:black;
+border:solid 5px black;
+color:white;
+
 }
 
 #banner{
-    background-image: url();
+    display: flex;
+    background-image: url(Assets/banner-jpeg.jpg);
+    background-position: center;
+    min-height: 100px;
+    min-width: 100%;
 }
-#tags { 
-flex-direction: column;
+
+#tags {
+    float: left;
+    padding-right: 80px;
 
 }
+#description {
+    display:flex;
+    padding-left: 50px;
+    border-left:solid 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: inherit;
+}
+
+#special-psuedo {
+    min-height: 20%;
+    min-width: 80%;
+}
+
+.psuedo {
+max-width:100px;
+max-height:100px;
+}
+.contact-me h4 {
+    float: right;
+    justify-content: space-between;
+}
+.contact-me p {
+
+}
+
   
