@@ -1,6 +1,10 @@
 *{
     font-size: 16px;
     font-family: monospace;
+    color: white;
+}
+body{
+    background-color:magenta;
 }
 .navbar {
     display:flex;
@@ -9,37 +13,37 @@
     align-items: center;
 }
 
-.navbar ul{
-    display: flex;
-    list-style-type: none;
-    text-decoration: underline;
-    justify-content: space-between;
-    
-   
-}
 h1 {
     background-color: purple;
     font-size: 30px;
     margin: 0px;
     padding: 10px;
     color:seashell;
+    justify-content: left;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: underline;
+    justify-content: space-between;
 }
 
 .navbar ul li {
-padding: 10px;
-margin-right: 20px;
-font-weight: bolder;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: bolder;
+
 }
 .navbar ul li a {
-    font-size: 25px;
-    color: purple;
+        font-size: 25px;
+        color: purple;
+
 }
 .navbar ul li a:hover {
-background-color:purple;
-box-shadow:black;
-border:solid 5px black;
-color:white;
-
+    background-color:purple;
+    box-shadow:black;
+    border:solid 5px black;
+    color:white;
 }
 
 #banner{
@@ -51,10 +55,14 @@ color:white;
 }
 
 #tags {
-    float: left;
+    font-size: 20px;
+    display: flex;
+    left: 0px;
     padding-right: 80px;
-
+    flex-direction: column;
+    justify-content: center;
 }
+
 #description {
     display:flex;
     padding-left: 50px;
@@ -63,27 +71,56 @@ color:white;
     font-size: inherit;
 }
 
-#special-psuedo {
-    min-height: 20%;
-    min-width: 80%;
+.work {
+    
+    flex-direction: row;
+}
+.images {
+
+    flex-direction: row
+}
+
+.special-psuedo {
+    display: flex;
+    flex-direction: row wrap;
+    border-left: solid 5px black;
+    min-width: 800px;
+
+
 }
 
 .psuedo {
-    max-width:100px;
-    max-height:100px;
+    background-color: blue;
+    border-left: solid 5px black;
+    width: 400px;
+    
 }
-#special-psuedo:hover{
+.special-psuedo:hover{
     opacity: 80%;
+    box-shadow: inset 5px 5px 5px 5px snow;
+    border: solid 5px navy;
 }
 .psuedo:hover{
     opacity: 80%;
+    box-shadow: inset 5px 5px 5px 5px snow;
+    border: solid 5px navy;
 }
-.contact-me h4 {
-    float: right;
+
+footer {
+    display:flex;
     justify-content: space-between;
+   
 }
+.contact-me h4{
+    display: inline;
+    float: right;
+    flex: end;
+   
+    
+}
+
 .contact-me p {
-
+    display: flex;
+    justify-content: right;
 }
-
   
