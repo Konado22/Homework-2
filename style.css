@@ -1,6 +1,7 @@
 *{
     font-size: 16px;
     font-family: monospace;
+    background-color: lightgray;
 }
 
 .navbar {
@@ -31,7 +32,7 @@ h1 {
 }
 .navbar ul li a {
         font-size: 25px;
-        color: lightgray;
+        color: black;
 
 }
 .navbar ul li a:hover {
@@ -43,49 +44,64 @@ h1 {
 }
 
 #banner{
+    display: flex;
+    justify-content: right;
     background-image: url(Assets/banner-jpeg.jpg);
     background-position: center;
     min-height: 100px;
     min-width: 100%;  
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 .banner-text {
     display:flex;
-    justify-content: right;
+    justify-content: flex-end;
     margin: 0px;
-    right: 0px;
-    bottom: 0px;
-  
+    background-color: lightgray;
+    font-size: 30px;
+    padding-left: 5px;
 }
-
+#about-me, #work, #contact-me{
+    margin-bottom: 20px;
+}
 #description {
     display:flex;
-    padding-left: 50px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    padding-left: 10px;
     border-left:solid 5px black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+    position: relative;
 }
+#work {
 
-.work {
-    
-    flex-direction: row;
+    display: inline-block;
+    justify-content: center;
+    flex-flow: row;
 }
-.images {
-
-    flex-direction: row
-}
-
 .special-psuedo {
     display: flex;
-    flex-direction: row wrap;
     border-left: solid 5px black;
     min-width: 800px;
+    margin-left: 150px;
+    position: relative;
 
 }
 
 .psuedo {
+    display:flex;
+    flex-flow: row;
     background-color: blue;
     border-left: solid 5px black;
     width: 400px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.psuedo image{
+    display: flex;
+    flex-flow: row; 
     
 }
 .special-psuedo:hover{
@@ -98,24 +114,46 @@ h1 {
     box-shadow: inset 5px 5px 5px 5px snow;
     border: solid 5px navy;
 }
+.special-psuedo h3, .special-psuedo h2 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
 
-footer {
+.psuedo h3, .psuedo h2 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    position:absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#contact-me {
     display:flex;
     justify-content:space-between;
     align-items: center;
     padding-right: 10px;
-    margin-right: 50px;
-   
+    margin-right: 50px; 
+}
+footer h4{
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: right;
 }
 footer h4:hover{
     text-decoration: underline;
 }
 
-#tags {
+.tags {
     font-size: 25px;
-    display: flex;
-    left: 0px;
-    padding-right: 80px;
+    display: inline-block;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
+    align-items: stretch;
+    position: absolute;
 }
