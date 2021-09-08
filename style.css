@@ -3,6 +3,7 @@
     font-family: monospace;
     background-color: lightgray;
     margin: 0px;
+    /* box-sizing: border-box; */
 }
 
 .navbar {
@@ -79,7 +80,6 @@ h1 {
 .special-psuedo {
     display: flex;
     position: relative;
-    flex-wrap: wrap;
     border-left: solid 5px black;
     min-width: 85%;
     margin-left: 110px;
@@ -115,8 +115,8 @@ h1 {
     margin: 0px;
     padding: 0px;
     position:absolute;
-    left: 200px;
-    bottom:15px;
+    left: 20%;
+    bottom:15%;
     font-size: 40px;
 }
 .special-tag2{
@@ -149,7 +149,6 @@ h1 {
     display:inline-block;
     position: relative;
     padding: 0px;
-    border: solid 3px lightblue;
 }
 @media screen and (max-width:1080px) {
     .psuedo{
