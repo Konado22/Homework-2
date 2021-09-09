@@ -3,8 +3,9 @@
     font-family: monospace;
     background-color: lightgray;
     margin: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
+
 
 .navbar {
     display:flex;
@@ -12,6 +13,7 @@
     background-color:blue;
     align-items: center;
 }
+
 
 h1 {
     background-color: lightgray;
@@ -26,14 +28,17 @@ h1 {
     justify-content: space-between;
 }
 
+
 .navbar ul li {
     padding: 10px;
     font-weight: bolder;
+
 
 }
 .navbar ul li a {
         font-size: 25px;
         color: black;
+
 
 }
 .navbar ul li a:hover {
@@ -43,6 +48,7 @@ h1 {
     color:black;
     cursor: grab;
 }
+
 
 #banner{
     display: flex;
@@ -77,6 +83,7 @@ h1 {
     position: relative;
 }
 
+
 .special-psuedo {
     display: flex;
     position: relative;
@@ -87,6 +94,7 @@ h1 {
     margin-bottom: 10px;
     padding-left: 50px;
 }
+
 
 .psuedo {
     display:flex;
@@ -145,6 +153,7 @@ h1 {
     bottom: 15%;
 }
 
+
 .images{
     display:inline-block;
     position: relative;
@@ -192,6 +201,7 @@ footer h4:hover{
     text-decoration: underline;
 }
 
+
 .tags {
     font-size: 20px;
     flex-direction: column;
@@ -199,4 +209,3 @@ footer h4:hover{
     align-items: stretch;
     position: absolute;
 }
-
