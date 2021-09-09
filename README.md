@@ -5,5 +5,5 @@ Table of Contents\
 -Work\
 -Contact me \
 Link to repository: https://github.com/Konado22/Homework-Portfolio/ \
-Link to page:https://konado22.github.io/Homework-2/ 
+Link to page:https://konado22.github.io/Homework-Portfolio/ 
 
